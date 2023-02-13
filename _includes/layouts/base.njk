@@ -11,17 +11,10 @@
     <a id="top"></a>
 
     <header>
-        <div class="logo">
-            <a href="index.html">
-                François Vilaire
-            </a>
-        </div>
-        <div class="navigation">
-            {% include "nav.njk" %}
-        </div>
+        {% include "header.njk" %}
     </header>
 
-    <main class="container">
+    <main>
         {{ content | safe }}
     </main>
 
