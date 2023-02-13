@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+
+    <a id="top"></a>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                François Vilaire
+            </a>
+        </div>
+        <div class="navigation">
+            {% include "nav.njk" %}
+        </div>
+    </header>
+
+    <main class="container">
+        {{ content | safe }}
+    </main>
+
+    <footer class="{{ 'hidden' if '/project' in page.url }}">
+        {% include "footer.njk" %}
+    </footer>
+
+</body>
+</html>
