@@ -1,13 +1,15 @@
 // Modules
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
+// Normalize
+@import 'setup/normalize';
+
 // Tokens
 @import 'tokens/color';
 @import 'tokens/typography';
 @import 'tokens/spacing';
 
 // Setup
-@import 'setup/normalize';
 @import 'setup/base';
 @import 'setup/utility';
 
@@ -22,3 +24,8 @@
 @import 'components/list';
 @import 'components/table';
 @import 'components/image';
+
+// Organisms
+@import 'organisms/header';
+@import 'organisms/footer';
+@import 'organisms/main';

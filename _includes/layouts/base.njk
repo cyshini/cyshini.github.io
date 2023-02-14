@@ -10,15 +10,15 @@
 
     <a id="top"></a>
 
-    <header>
+    <header class="container">
         {% include "header.njk" %}
     </header>
 
-    <main>
+    <main class="container">
         {{ content | safe }}
     </main>
 
-    <footer class="{{ 'hidden' if '/project' in page.url }}">
+    <footer class="container">
         {% include "footer.njk" %}
     </footer>
 
