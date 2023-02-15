@@ -1,54 +1,17 @@
-b,
-strong {
-  font-weight: bold;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 8 |   color: $color-secondary;
+ *   |          ^^^^^^^^^^^^^^^^
+ *   '
+ *   sass\tokens\typography.scss 8:10  root stylesheet */
 
-p {
-  font-size: 1.8rem;
-  margin-bottom: 2.4rem;
-  margin-top: 0;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 8 \2502    color: $color-secondary;\a   \2502           ^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\tokens\\typography.scss 8:10  root stylesheet";
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-  letter-spacing: -0.1rem;
-  margin-bottom: 2.4rem;
-  margin-top: 0;
-}
-
-h1 {
-  font-size: 4rem;
-  line-height: 1.3;
-}
-
-h2 {
-  font-size: 3.2rem;
-  line-height: 1.3;
-}
-
-h3 {
-  font-size: 2.4rem;
-  line-height: 1.3;
-}
-
-h4 {
-  font-size: 1.8rem;
-  line-height: 1.5;
-}
-
-h5 {
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-h6 {
-  font-size: 1.4rem;
-  line-height: 1.5;
-}
-
-/*# sourceMappingURL=typography.css.map */

@@ -3,12 +3,13 @@
 
 b,
 strong {
-  font-weight: bold;
+  font-family: 'ClashGrotesk-Medium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 500;
+  color: $color-secondary;
 }
 
 p {
   font-size: 1.8rem;
-  margin-bottom: 2.4rem;
   margin-top: 0;
 }
 
@@ -18,8 +19,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
-  letter-spacing: -0.1rem;
+  font-family: 'ClashGrotesk-Medium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 500;
+  color: $color-secondary;
   margin-bottom: 2.4rem;
   margin-top: 0;
 }

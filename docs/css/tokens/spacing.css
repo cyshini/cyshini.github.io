@@ -3,14 +3,14 @@ button,
 dd,
 dt,
 li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 fieldset,
 input,
 select,
 textarea {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.6rem;
 }
 
 blockquote,
@@ -22,7 +22,7 @@ p,
 pre,
 table,
 ul {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.4rem;
 }
 
 /*# sourceMappingURL=spacing.css.map */

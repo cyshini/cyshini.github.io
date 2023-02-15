@@ -1,9 +1,26 @@
 header {
-    ul {
-    margin:0;
-        li {
-            margin:0 0.8rem;
-            list-style: none;
+
+    .logo {
+
+        a {
+            font-family: 'ClashGrotesk-Medium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+            font-weight: 500;
+            color: $color-secondary;
         }
+
     }
+
+    ul {
+    margin: 0;
+    display: flex;
+    justify-content: right;
+
+        li {
+            margin: 0 0.8rem;
+            list-style: none;
+            flex-direction: column;
+        }
+
+    }
+
 }
