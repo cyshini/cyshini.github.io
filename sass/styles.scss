@@ -3,15 +3,16 @@
 
 // Normalize
 @import 'setup/normalize';
+@import 'setup/sentient';
 
 // Tokens
 @import 'tokens/color';
 @import 'tokens/typography';
 @import 'tokens/spacing';
 
-// Setup
-@import 'setup/base';
-@import 'setup/utility';
+// Framework basis
+@import 'basis/base';
+@import 'basis/utility';
 
 // Components
 @import 'components/blockquote';
