@@ -1,0 +1,15 @@
+.taglist {
+    margin: 0 0 1.6 0;
+    display: flex;
+    li {
+        margin-right: 1.6rem;
+        list-style: none;
+        flex-direction: column;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        border: 1px solid $color-quinary;
+        border-radius: 0.4rem;
+        padding: 0.4rem 0.8rem;
+    }
+}

@@ -1,18 +1,12 @@
-<div class="row">
-    <div class="column logo">
-        <a href="index.html" class="{{ '' if '/about' in page.url or '/portfolio' in page.url else 'active' }}">
-            François Vilaire
-        </a>
-    </div>
-
-    <nav class="column">
-        <ul>
-            <li>
-                <a href="about.html" class="{{ 'active' if '/about' in page.url }}">About</a>
-            </li>
-            <li>
-                <a href="portfolio.html" class="{{ 'active' if '/portfolio' in page.url }}">Portfolio</a>
-            </li>
-        </ul>
-    </nav>
-</div>
+<nav>
+    <ul>
+        <li class="logo">
+            <a href="index.html" class="{{ '' if '/about' in page.url or '/portfolio' in page.url else 'active' }}">François Vilaire</a>
+        <li>
+            <a href="about.html" class="{{ 'active' if '/about' in page.url }}">About</a>
+        </li>
+        <li>
+            <a href="portfolio.html" class="{{ 'active' if '/portfolio' in page.url }}">Portfolio</a>
+        </li>
+    </ul>
+</nav>

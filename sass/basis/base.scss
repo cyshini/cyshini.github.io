@@ -19,10 +19,9 @@ html {
 body {
   background: $color-initial;
   color: $color-tertiary;
-  font-family: 'ClashGrotesk-Regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'PublicSans-Regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em; // Currently ems cause chrome bug misinterpreting rems on body element
   font-weight: 400;
-  letter-spacing: 0.02em;
   line-height: 1.5;
   padding: 1.6rem 0;
 }

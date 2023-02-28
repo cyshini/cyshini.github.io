@@ -318,29 +318,38 @@ template {
  *
 */
 @font-face {
-  font-family: "ClashGrotesk-Regular";
-  src: url("../fonts/ClashGrotesk-Regular.woff2") format("woff2"), url("../fonts/ClashGrotesk-Regular.woff") format("woff"), url("../fonts/ClashGrotesk-Regular.ttf") format("truetype");
+  font-family: "Ranade-Medium";
+  src: url("../fonts/Ranade-Medium.woff2") format("woff2"), url("../fonts/Ranade-Medium.woff") format("woff"), url("../fonts/Ranade-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PublicSans-Regular";
+  src: url("../fonts/PublicSans-Regular.woff2") format("woff2"), url("../fonts/PublicSans-Regular.woff") format("woff"), url("../fonts/PublicSans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "ClashGrotesk-Medium";
-  src: url("../fonts/ClashGrotesk-Medium.woff2") format("woff2"), url("../fonts/ClashGrotesk-Medium.woff") format("woff"), url("../fonts/ClashGrotesk-Medium.ttf") format("truetype");
-  font-weight: 500;
+  font-family: "PublicSans-Bold";
+  src: url("../fonts/PublicSans-Bold.woff2") format("woff2"), url("../fonts/PublicSans-Bold.woff") format("woff"), url("../fonts/PublicSans-Bold.ttf") format("truetype");
+  font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
 b,
 strong {
-  font-family: "ClashGrotesk-Medium", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 500;
+  font-family: "PublicSans-Bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
   color: #f4f4f4;
 }
 
 p {
   font-size: 1.8rem;
+  margin-bottom: 1.8rem;
   margin-top: 0;
+  color: #cccccc;
 }
 
 h1,
@@ -349,40 +358,36 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "ClashGrotesk-Medium", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Ranade-Medium", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 500;
   color: #f4f4f4;
-  margin-bottom: 2.4rem;
+  line-height: 1.3;
+  margin-bottom: 1.6rem;
   margin-top: 0;
 }
 
-h1 {
+.title--xl {
   font-size: 4rem;
   line-height: 1.3;
 }
 
-h2 {
+.title--l {
   font-size: 3.2rem;
   line-height: 1.3;
 }
 
-h3 {
+.title--m {
   font-size: 2.4rem;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
-h4 {
+.title--s {
   font-size: 1.8rem;
   line-height: 1.5;
 }
 
-h5 {
+.title--xs {
   font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-h6 {
-  font-size: 1.4rem;
   line-height: 1.5;
 }
 
@@ -427,10 +432,9 @@ html {
 body {
   background: #151719;
   color: #dddddd;
-  font-family: "ClashGrotesk-Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "PublicSans-Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1.6em;
   font-weight: 400;
-  letter-spacing: 0.02em;
   line-height: 1.5;
   padding: 1.6rem 0;
 }
@@ -905,20 +909,46 @@ img {
   max-width: 100%;
 }
 
-header .logo a {
-  font-family: "ClashGrotesk-Medium", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 500;
-  color: #f4f4f4;
+.taglist {
+  margin: 0 0 1.6 0;
+  display: flex;
 }
+.taglist li {
+  margin-right: 1.6rem;
+  list-style: none;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border: 1px solid #999999;
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.logosoup {
+  margin: 0;
+  display: flex;
+}
+
 header ul {
   margin: 0;
   display: flex;
-  justify-content: right;
 }
 header ul li {
-  margin: 0 0.8rem;
+  margin-right: 1.6rem;
   list-style: none;
   flex-direction: column;
+}
+header ul li a {
+  color: #dddddd;
+}
+header ul li a:hover {
+  color: #25b4fe;
+}
+header ul .logo a {
+  font-family: "PublicSans-Bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  color: #f4f4f4;
 }
 
 /*# sourceMappingURL=styles.css.map */
