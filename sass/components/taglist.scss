@@ -1,14 +1,15 @@
 .taglist {
-    margin: 0 0 1.6 0;
+    padding: 2.4rem 0;
+    margin:0;
     display: flex;
+    flex-wrap: wrap;
     li {
-        margin-right: 1.6rem;
+        margin-right: 0.8rem;
         list-style: none;
         flex-direction: column;
-        font-size: 1.2rem;
-        text-transform: uppercase;
-        letter-spacing: 0.2rem;
-        border: 1px solid $color-quinary;
+        font-size: 1.6rem;
+        white-space: nowrap;
+        border: 1px solid $color-grey-dark;
         border-radius: 0.4rem;
         padding: 0.4rem 0.8rem;
     }

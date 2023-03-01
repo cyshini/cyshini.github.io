@@ -2,4 +2,8 @@ img {
   max-width: 100%;
 }
 
+img[src$=".jpg"] {
+  border-radius: 2.4rem;
+}
+
 /*# sourceMappingURL=image.css.map */

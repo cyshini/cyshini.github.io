@@ -10,7 +10,7 @@
 
     <a id="top"></a>
 
-    <header class="container">
+    <header>
         {% include "header.njk" %}
     </header>
 
@@ -18,7 +18,7 @@
         {{ content | safe }}
     </main>
 
-    <footer class="container">
+    <footer class="container {{ '' if '/about' in page.url or '/projects' in page.url else 'hidden' }}">
         {% include "footer.njk" %}
     </footer>
 

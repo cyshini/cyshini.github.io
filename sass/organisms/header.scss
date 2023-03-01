@@ -1,27 +1,43 @@
 header {
+    background: $color-grey-darker;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
 
-    ul {
-    margin: 0;
-    display: flex;
+    nav {
+        max-width: 128rem;
+        padding: 3.2rem 3.2rem;
+        margin: 0 auto;
 
-        li {
-            margin-right: 1.6rem;
-            list-style: none;
-            flex-direction: column;
-            a {
-                color: $color-tertiary;
+        ul {
+        margin: 0;
+        display: flex;
+        gap: 2.0rem;
+
+            li {
+                margin:0;
+                list-style: none;
+                flex-direction: column;
+                a {
+                    font-size: 1.8rem;
+                    color: $color-grey-lighter;
+                }
+                a.active {
+                    text-decoration: underline;
+                }
+                a:hover {
+                    color: $color-primary;
+                    text-decoration: none;
+                }
             }
-            a:hover {
-                color: $color-primary;
+
+            .logo a {
+                font-family: 'PublicSans-Bold', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+                font-weight: 700;
+                color: $color-grey-lightest;
             }
-        }
 
-        .logo a {
-            font-family: 'PublicSans-Bold', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-            font-weight: 700;
-            color: $color-secondary;
         }
-
     }
 
 }
