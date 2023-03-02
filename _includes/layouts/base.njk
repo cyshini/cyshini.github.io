@@ -18,7 +18,7 @@
         {{ content | safe }}
     </main>
 
-    <footer class="center {{ '' if '/about' in page.url or '/projects' in page.url else 'hidden' }}">
+    <footer class="center {{ '' if '/about' in page.url else 'hidden' }}">
         {% include "footer.njk" %}
     </footer>
 

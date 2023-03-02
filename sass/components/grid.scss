@@ -66,7 +66,7 @@
 }
 
 // Larger than mobile screen
-@media (min-width: 40rem) {
+@media (min-width: 64rem) {
   // Safari desktop has a bug using `rem`, but Safari mobile works
 
   .row {

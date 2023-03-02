@@ -1,0 +1,23 @@
+[
+    {
+        "thumbnail": "./img/card-perfectdraft.jpg",
+        "pictogram": "./img/picto-perfectdraft.svg",
+        "title": "PerfectDraft",
+        "jobs": "User Research, UX and UI design, Design System",
+        "link": "project-perfectdraft.html"
+    },
+    {
+        "thumbnail": "./img/card-leroymerlin.jpg",
+        "pictogram": "./img/picto-leroymerlin.svg",
+        "title": "Leroy Merlin",
+        "jobs": "User Research, UX and UI design",
+        "link": "project-leroymerlin.html"
+    },
+    {
+        "thumbnail": "./img/card-meert.jpg",
+        "pictogram": "./img/picto-meert.svg",
+        "title": "Méert",
+        "jobs": "UI design, Artistic Direction",
+        "link": "project-meert.html"
+    }
+]

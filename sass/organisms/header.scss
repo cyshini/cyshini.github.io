@@ -33,9 +33,9 @@ header {
                 }
             }
 
-            .logo a {
-                font-family: 'PublicSans-Bold', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-                font-weight: 700;
+            .myname a {
+                font-family: 'Ranade-Medium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+                font-weight: 500;
                 color: $color-grey-lightest;
             }
 
@@ -55,7 +55,7 @@ header {
         }
     }
 
-    .logo {
+    .myname {
         width: 100%;
     }
 }

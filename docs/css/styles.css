@@ -782,7 +782,7 @@ input[type=radio] {
   padding: 0.8rem 0;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 64rem) {
   .row {
     flex-direction: row;
     margin-left: -2.4rem;
@@ -948,6 +948,10 @@ img {
   margin-bottom: 1.6rem;
 }
 
+img.logo {
+  margin: 1.6rem;
+}
+
 img[src$=".jpg"] {
   border-radius: 2.4rem;
 }
@@ -1004,9 +1008,9 @@ header nav ul li a:hover {
   color: #25b4fe;
   text-decoration: none;
 }
-header nav ul .logo a {
-  font-family: "PublicSans-Bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 700;
+header nav ul .myname a {
+  font-family: "Ranade-Medium", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
   color: #f4f4f4;
 }
 
@@ -1020,7 +1024,7 @@ header nav ul .logo a {
   header nav ul a {
     font-size: 2rem;
   }
-  .logo {
+  .myname {
     width: 100%;
   }
 }
@@ -1052,7 +1056,7 @@ section.row {
   }
   section,
   section.row {
-    padding-bottom: 7.2rem;
+    padding-bottom: 8.8rem;
   }
 }
 
