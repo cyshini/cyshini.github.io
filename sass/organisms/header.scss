@@ -1,12 +1,15 @@
 header {
-    background: $color-grey-darker;
+    background-color: rgba(21, 23, 25, 0.6);
+    -webkit-backdrop-filter: blur(32px);
+    backdrop-filter: blur(32px);
+    box-shadow: 0 5px 20px $color-grey-darker;
     width: 100%;
     position: fixed;
     z-index: 999;
 
     nav {
         max-width: 128rem;
-        padding: 3.2rem 3.2rem;
+        padding: 2.4rem 3.2rem;
         margin: 0 auto;
 
         ul {
@@ -19,7 +22,6 @@ header {
                 list-style: none;
                 flex-direction: column;
                 a {
-                    font-size: 1.8rem;
                     color: $color-grey-lighter;
                 }
                 a.active {
@@ -40,4 +42,14 @@ header {
         }
     }
 
+}
+
+@media (min-width: 40rem) {
+    header nav {
+        padding: 3.2rem;
+    }
+
+    .logo {
+        width: 100%;
+    }
 }
