@@ -1,10 +1,11 @@
-footer{
-    a {
-        color:$color-grey;
-        font-size: 1.4rem;
+footer {
+    position: relative;
+    width: 100%;
+    padding: 4.0rem 3.2rem 2.4rem 3.2rem;
+    background-color: $color-grey-darkest;
+    p {
+        font-size: 1.6rem;
     }
 }
 
-.hidden {
-    display:none;
-}
+.hidden {display: none;}
