@@ -3,14 +3,14 @@
         "thumbnail": "./img/card-perfectdraft.jpg",
         "pictogram": "./img/picto-perfectdraft.svg",
         "title": "PerfectDraft",
-        "jobs": "User Research, UX and UI design, Design System",
+        "jobs": "User Research, UX/UI design",
         "link": "project-perfectdraft.html"
     },
     {
         "thumbnail": "./img/card-leroymerlin.jpg",
         "pictogram": "./img/picto-leroymerlin.svg",
         "title": "Leroy Merlin",
-        "jobs": "User Research, UX and UI design",
+        "jobs": "User Research, UX/UI design",
         "link": "project-leroymerlin.html"
     },
     {
@@ -19,5 +19,26 @@
         "title": "Méert",
         "jobs": "UI design, Artistic Direction",
         "link": "project-meert.html"
+    },
+    {
+        "thumbnail": "./img/card-laredoute.jpg",
+        "pictogram": "./img/picto-laredoute.svg",
+        "title": "La Redoute",
+        "jobs": "UI design",
+        "link": "project-laredoute.html"
+    },
+    {
+        "thumbnail": "./img/card-maisonsdenflandre.jpg",
+        "pictogram": "./img/picto-maisonsdenflandre.svg",
+        "title": "Maisons d'en Flandre",
+        "jobs": "UI design",
+        "link": "project-maisonsdenflandre.html"
+    },
+    {
+        "thumbnail": "./img/card-vensto.jpg",
+        "pictogram": "./img/picto-vensto.svg",
+        "title": "Vensto",
+        "jobs": "Direction artistique et UI design",
+        "link": "project-vensto.html"
     }
 ]
