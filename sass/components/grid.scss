@@ -66,8 +66,12 @@
 }
 
 // Larger than mobile screen
-@media (min-width: 64rem) {
+@media (min-width: 40rem) {
   // Safari desktop has a bug using `rem`, but Safari mobile works
+
+  .container {
+    padding: 1.6rem 4.8rem;
+  }
 
   .row {
     flex-direction: row;

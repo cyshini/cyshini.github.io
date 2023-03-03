@@ -3,15 +3,16 @@
     margin:0;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.6rem;
+    gap: 0.8rem;
     li {
         list-style: none;
         flex-direction: column;
         font-size: 1.6rem;
         white-space: nowrap;
-        border: 1px solid $color-grey-dark;
-        border-radius: 0.4rem;
-        padding: 0.4rem 0.8rem;
+        border: 2px solid $color-grey-dark;
+        border-radius: 2.0rem;
+        background-color: $color-grey-darkest;
+        padding: 0.4rem 1.6rem;
         margin: 0;
     }
 }
