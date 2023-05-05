@@ -3,10 +3,54 @@ title: François Vilaire, Product Designer
 layout: layouts/base.njk
 ---
 
-<h1 class="title--xl no-spacing">Hi, I'm François!</h1>
-<p class="title--xl">A <a href="about.html">Product Designer</a> living in Lille.</p>
+<h1 class="title--l">Hello world! I'm François, a <a href="about.html">Product Designer</a> living in Lille.</h1>
 
-<p class="title--m">Since 2007, I have been working on multiple forms of <a href="projects.html">digital projects</a> in order to make people's lives easier, by combining usefulness with eye candy.</p>
+<p class="title--m">Since 2007, I have been doing UI and UX design for multiple forms of <a href="projects.html">digital projects</a>, in order to make people's lives easier by combining usefulness with eye candy.</p>
+
+<section>
+    <div class="row">
+    {% for project in projects %}
+        {% if (loop.index <= 3) %}
+        <div class="column">
+            <a href="{{ project.link }}">
+                <div class="card">
+                    <div class="card-images">
+                        <img src="{{ project.pictogram }}" class="project-pictogram" width="200px" alt="{{ project.title }} pictogram">
+                        <img src="{{ project.thumbnail }}" class="project-thumbnail" alt="{{ project.title }} thumbnail">
+                    </div>
+                    <div class="card-section">
+                        <h3 class="title--s">{{ project.title }} <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 -2 22 18" class="icon-arrow-right"><polygon points="20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 " fill="#f4f4f4"/></svg></span></h3>
+                        <p>{{ project.jobs }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% else %}
+        {% endif %}
+    {% endfor %}
+    </div>
+
+    <div class="row">
+    {% for project in projects %}
+        {% if (loop.index >= 4) %}
+        <div class="column">
+            <a href="{{ project.link }}">
+                <div class="card">
+                    <div class="card-images">
+                        <img src="{{ project.pictogram }}" class="project-pictogram" width="200px" alt="{{ project.title }} pictogram">
+                        <img src="{{ project.thumbnail }}" class="project-thumbnail" alt="{{ project.title }} thumbnail">
+                    </div>
+                    <div class="card-section">
+                        <h3 class="title--s">{{ project.title }} <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 -2 22 18" class="icon-arrow-right"><polygon points="20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 " fill="#f4f4f4"/></svg></span></h3>
+                        <p>{{ project.jobs }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endif %}
+    {% endfor %}
+    </div>
+</section>
 
 <ul class="taglist">
     <li>UI Design</li>

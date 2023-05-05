@@ -1,17 +1,19 @@
 // Color
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
-// Primary
-$color-primary: #25b4fe !default;
+// Main
+$color-primary: #FFED50 !default;
+$color-green: #C7FF50 !default;
+$color-red: #FF5E5E !default;
 
 // Greys
-$color-grey-darkest: #0a0b0c !default;
-$color-grey-darker: #151719 !default;
-$color-grey-dark: #474d53 !default;
-$color-grey: #8b8f94 !default;
-$color-grey-light: #bec6cc !default;
-$color-grey-lighter: #dde8ec !default;
-$color-grey-lightest: #f4f4f4 !default;
+$color-grey-darkest: #111 !default;
+$color-grey-darker: #333 !default;
+$color-grey-dark: #666 !default;
+$color-grey: #888 !default;
+$color-grey-light: #aaa !default;
+$color-grey-lighter: #ccc !default;
+$color-grey-lightest: #eee !default;
 
 // Basic
 $color-black: #000;

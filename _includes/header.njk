@@ -2,11 +2,12 @@
     <ul>
         <li class="myname">
             <a href="index.html">François Vilaire</a>
-        <li>
-            <a href="about.html" class="{{ 'active' if '/about' in page.url }}">About</a>
         </li>
         <li>
-            <a href="projects.html" class="{{ 'active' if '/projects' in page.url }}">Projects</a>
+            <a href="index.html" class="{{ '' if '/about' in page.url else 'active' }}">Portfolio</a>
+        </li>
+        <li>
+            <a href="about.html" class="{{ 'active' if '/about' in page.url }}">About</a>
         </li>
     </ul>
 </nav>

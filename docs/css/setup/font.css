@@ -2,29 +2,29 @@
 /**
  * @license
  *
- * Font Family: Clash Grotesk
- * Designed by: Indian Type Foundry
- * URL: https://www.fontshare.com/fonts/clash-grotesk
- * © 2023 Indian Type Foundry
+ * Font Family: Space Grotesk
+ * Authors: Florian Karsten and Květoslav Bartoš
+ * URL: https://fonts.floriankarsten.com/space-grotesk
+ * Released under SIL Open Font License, as a modified version of Space Mono (2016, Colophon Foundry & Google Fonts).
  *
 */
 @font-face {
-  font-family: "Ranade-Medium";
-  src: url("../fonts/Ranade-Medium.woff2") format("woff2"), url("../fonts/Ranade-Medium.woff") format("woff"), url("../fonts/Ranade-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "PublicSans-Regular";
-  src: url("../fonts/PublicSans-Regular.woff2") format("woff2"), url("../fonts/PublicSans-Regular.woff") format("woff"), url("../fonts/PublicSans-Regular.ttf") format("truetype");
+  font-family: "SpaceGrotesk-Regular";
+  src: url("../fonts/SpaceGrotesk-Regular.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "PublicSans-Bold";
-  src: url("../fonts/PublicSans-Bold.woff2") format("woff2"), url("../fonts/PublicSans-Bold.woff") format("woff"), url("../fonts/PublicSans-Bold.ttf") format("truetype");
+  font-family: "SpaceGrotesk-Medium";
+  src: url("../fonts/SpaceGrotesk-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SpaceGrotesk-Bold";
+  src: url("../fonts/SpaceGrotesk-Bold.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
   font-style: normal;

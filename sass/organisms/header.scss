@@ -1,8 +1,7 @@
 header {
-    background-color: rgba(21, 23, 25, 0.6);
+    background-color: rgba(17, 17, 17, 0.6);
     -webkit-backdrop-filter: blur(32px);
     backdrop-filter: blur(32px);
-    box-shadow: 0 5px 20px $color-grey-darker;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -34,7 +33,7 @@ header {
             }
 
             .myname a {
-                font-family: 'Ranade-Medium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+                font-family: 'SpaceGrotesk-Medium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
                 font-weight: 500;
                 color: $color-grey-lightest;
             }

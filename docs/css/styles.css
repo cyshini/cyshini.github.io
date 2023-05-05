@@ -311,113 +311,94 @@ template {
 /**
  * @license
  *
- * Font Family: Clash Grotesk
- * Designed by: Indian Type Foundry
- * URL: https://www.fontshare.com/fonts/clash-grotesk
- * © 2023 Indian Type Foundry
+ * Font Family: Space Grotesk
+ * Authors: Florian Karsten and Květoslav Bartoš
+ * URL: https://fonts.floriankarsten.com/space-grotesk
+ * Released under SIL Open Font License, as a modified version of Space Mono (2016, Colophon Foundry & Google Fonts).
  *
 */
 @font-face {
-  font-family: "Ranade-Medium";
-  src: url("../fonts/Ranade-Medium.woff2") format("woff2"), url("../fonts/Ranade-Medium.woff") format("woff"), url("../fonts/Ranade-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "PublicSans-Regular";
-  src: url("../fonts/PublicSans-Regular.woff2") format("woff2"), url("../fonts/PublicSans-Regular.woff") format("woff"), url("../fonts/PublicSans-Regular.ttf") format("truetype");
+  font-family: "SpaceGrotesk-Regular";
+  src: url("../fonts/SpaceGrotesk-Regular.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "PublicSans-Bold";
-  src: url("../fonts/PublicSans-Bold.woff2") format("woff2"), url("../fonts/PublicSans-Bold.woff") format("woff"), url("../fonts/PublicSans-Bold.ttf") format("truetype");
+  font-family: "SpaceGrotesk-Medium";
+  src: url("../fonts/SpaceGrotesk-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SpaceGrotesk-Bold";
+  src: url("../fonts/SpaceGrotesk-Bold.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
 b,
 strong {
-  font-family: "PublicSans-Bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "SpaceGrotesk-Bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 700;
-  color: #f4f4f4;
+  color: #fff;
 }
 
 p {
   font-size: 1.8rem;
   margin-bottom: 1.8rem;
   margin-top: 0;
-  color: #bec6cc;
+  color: #fff;
 }
 
-.title--xl,
 .title--l,
 .title--m,
-.title--s,
-.title--xs {
-  font-family: "Ranade-Medium", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 500;
-  color: #f4f4f4;
+.title--s {
+  font-family: "SpaceGrotesk-Bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #fff;
   margin-top: 0;
-}
-
-.title--xl {
-  font-size: 4rem;
-  line-height: 1.3;
-  margin-bottom: 2.4rem;
 }
 
 .title--l {
   font-size: 3.2rem;
+  font-weight: 700;
   line-height: 1.3;
   margin-bottom: 2rem;
 }
 
 .title--m {
   font-size: 2.4rem;
-  line-height: 1.5;
+  font-weight: 500;
+  line-height: 1.4;
   margin-bottom: 1.6rem;
 }
 
 .title--s {
   font-size: 1.8rem;
-  line-height: 1.5;
-  margin-bottom: 0.8rem;
-}
-
-.title--xs {
-  font-size: 1.6rem;
+  font-weight: 700;
   line-height: 1.5;
   margin-bottom: 0.8rem;
 }
 
 @media (min-width: 40rem) {
-  .title--xl {
-    font-size: 9.6rem;
-    line-height: 1.1;
-    margin-bottom: 4.8rem;
-  }
   .title--l {
-    font-size: 5.6rem;
-    line-height: 1.3;
-    margin-bottom: 2.4rem;
+    font-size: 7.2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 4rem;
   }
   .title--m {
     font-size: 4rem;
+    font-weight: 500;
     line-height: 1.3;
-    margin-bottom: 2.4rem;
+    margin-bottom: 3.2rem;
   }
   .title--s {
-    font-size: 2.4rem;
-    line-height: 1.5;
-    margin-bottom: 0.8rem;
-  }
-  .title--xs {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    margin-bottom: 0.8rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 2.4rem;
   }
 }
 .button,
@@ -459,9 +440,9 @@ html {
 }
 
 body {
-  background: #151719;
-  color: #dde8ec;
-  font-family: "PublicSans-Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background: #111;
+  color: #ccc;
+  font-family: "SpaceGrotesk-Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1.6em;
   font-weight: 400;
   line-height: 1.5;
@@ -491,7 +472,7 @@ body {
 }
 
 blockquote {
-  border-left: 0.3rem solid #bec6cc;
+  border-left: 0.3rem solid #aaa;
   margin-left: 0;
   margin-right: 0;
   padding: 1rem 1.5rem;
@@ -505,10 +486,10 @@ button,
 input[type=button],
 input[type=reset],
 input[type=submit] {
-  background-color: #25b4fe;
-  border: 0.1rem solid #25b4fe;
+  background-color: #FFED50;
+  border: 0.1rem solid #FFED50;
   border-radius: 0.4rem;
-  color: #151719;
+  color: #333;
   cursor: pointer;
   display: inline-block;
   font-size: 1.1rem;
@@ -531,9 +512,9 @@ input[type=reset]:focus,
 input[type=reset]:hover,
 input[type=submit]:focus,
 input[type=submit]:hover {
-  background-color: #f4f4f4;
-  border-color: #f4f4f4;
-  color: #151719;
+  background-color: #eee;
+  border-color: #eee;
+  color: #333;
   outline: 0;
 }
 .button[disabled],
@@ -553,8 +534,8 @@ input[type=reset][disabled]:focus,
 input[type=reset][disabled]:hover,
 input[type=submit][disabled]:focus,
 input[type=submit][disabled]:hover {
-  background-color: #25b4fe;
-  border-color: #25b4fe;
+  background-color: #FFED50;
+  border-color: #FFED50;
 }
 .button.button-outline,
 button.button-outline,
@@ -562,7 +543,7 @@ input[type=button].button-outline,
 input[type=reset].button-outline,
 input[type=submit].button-outline {
   background-color: transparent;
-  color: #25b4fe;
+  color: #FFED50;
 }
 .button.button-outline:focus, .button.button-outline:hover,
 button.button-outline:focus,
@@ -574,8 +555,8 @@ input[type=reset].button-outline:hover,
 input[type=submit].button-outline:focus,
 input[type=submit].button-outline:hover {
   background-color: transparent;
-  border-color: #f4f4f4;
-  color: #f4f4f4;
+  border-color: #eee;
+  color: #eee;
 }
 .button.button-outline[disabled]:focus, .button.button-outline[disabled]:hover,
 button.button-outline[disabled]:focus,
@@ -587,7 +568,7 @@ input[type=reset].button-outline[disabled]:hover,
 input[type=submit].button-outline[disabled]:focus,
 input[type=submit].button-outline[disabled]:hover {
   border-color: inherit;
-  color: #25b4fe;
+  color: #FFED50;
 }
 .button.button-clear,
 button.button-clear,
@@ -596,7 +577,7 @@ input[type=reset].button-clear,
 input[type=submit].button-clear {
   background-color: transparent;
   border-color: transparent;
-  color: #25b4fe;
+  color: #FFED50;
 }
 .button.button-clear:focus, .button.button-clear:hover,
 button.button-clear:focus,
@@ -609,7 +590,7 @@ input[type=submit].button-clear:focus,
 input[type=submit].button-clear:hover {
   background-color: transparent;
   border-color: transparent;
-  color: #f4f4f4;
+  color: #eee;
 }
 .button.button-clear[disabled]:focus, .button.button-clear[disabled]:hover,
 button.button-clear[disabled]:focus,
@@ -620,11 +601,11 @@ input[type=reset].button-clear[disabled]:focus,
 input[type=reset].button-clear[disabled]:hover,
 input[type=submit].button-clear[disabled]:focus,
 input[type=submit].button-clear[disabled]:hover {
-  color: #25b4fe;
+  color: #FFED50;
 }
 
 code {
-  background: #dde8ec;
+  background: #ccc;
   border-radius: 0.4rem;
   font-size: 86%;
   margin: 0 0.2rem;
@@ -633,8 +614,8 @@ code {
 }
 
 pre {
-  background: #dde8ec;
-  border-left: 0.3rem solid #25b4fe;
+  background: #ccc;
+  border-left: 0.3rem solid #FFED50;
   overflow-y: hidden;
 }
 pre > code {
@@ -646,7 +627,7 @@ pre > code {
 
 hr {
   border: 0;
-  border-top: 0.1rem solid #dde8ec;
+  border-top: 0.1rem solid #ccc;
   margin: 3rem 0;
 }
 
@@ -668,7 +649,7 @@ textarea,
 select {
   -webkit-appearance: none;
   background-color: transparent;
-  border: 0.1rem solid #bec6cc;
+  border: 0.1rem solid #aaa;
   border-radius: 0.4rem;
   box-shadow: none;
   box-sizing: inherit;
@@ -692,16 +673,16 @@ input[type=week]:focus,
 input:not([type]):focus,
 textarea:focus,
 select:focus {
-  border-color: #25b4fe;
+  border-color: #FFED50;
   outline: 0;
 }
 
 select {
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23bec6cc" d="M0,0l6,8l6-8"/></svg>') center right no-repeat;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23aaa" d="M0,0l6,8l6-8"/></svg>') center right no-repeat;
   padding-right: 3rem;
 }
 select:focus {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%2325b4fe" d="M0,0l6,8l6-8"/></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23FFED50" d="M0,0l6,8l6-8"/></svg>');
 }
 select[multiple] {
   background: none;
@@ -884,7 +865,7 @@ input[type=radio] {
   }
 }
 a {
-  color: #25b4fe;
+  color: #FFED50;
   text-decoration: none;
 }
 a:focus, a:hover {
@@ -928,7 +909,7 @@ table {
 
 td,
 th {
-  border-bottom: 0.1rem solid #8b8f94;
+  border-bottom: 0.1rem solid #888;
   padding: 1.2rem 1.5rem;
 }
 td:first-child,
@@ -971,9 +952,9 @@ img[src$=".jpg"] {
   flex-direction: column;
   font-size: 1.6rem;
   white-space: nowrap;
-  border: 2px solid #474d53;
+  border: 2px solid #666;
   border-radius: 2rem;
-  background-color: #0a0b0c;
+  background-color: #111;
   padding: 0.4rem 1.6rem;
   margin: 0;
 }
@@ -996,7 +977,7 @@ img[src$=".jpg"] {
 }
 
 .card p {
-  color: #bec6cc;
+  color: #aaa;
   font-size: 1.6rem;
   margin: 0;
 }
@@ -1024,7 +1005,7 @@ a:hover {
   text-decoration: none;
 }
 a:hover .card {
-  background: #0a0b0c;
+  background: #111;
   margin-top: -1rem;
   margin-bottom: 2rem;
 }
@@ -1054,10 +1035,9 @@ a:hover .card .icon-arrow-right {
   }
 }
 header {
-  background-color: rgba(21, 23, 25, 0.6);
+  background-color: rgba(17, 17, 17, 0.6);
   -webkit-backdrop-filter: blur(32px);
   backdrop-filter: blur(32px);
-  box-shadow: 0 5px 20px #151719;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -1078,19 +1058,19 @@ header nav ul li {
   flex-direction: column;
 }
 header nav ul li a {
-  color: #dde8ec;
+  color: #ccc;
 }
 header nav ul li a.active {
   text-decoration: underline;
 }
 header nav ul li a:hover {
-  color: #25b4fe;
+  color: #FFED50;
   text-decoration: none;
 }
 header nav ul .myname a {
-  font-family: "Ranade-Medium", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "SpaceGrotesk-Medium", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 500;
-  color: #f4f4f4;
+  color: #eee;
 }
 
 @media (min-width: 40rem) {
@@ -1111,7 +1091,7 @@ footer {
   position: relative;
   width: 100%;
   padding: 4rem 3.2rem 2.4rem 3.2rem;
-  background-color: #0a0b0c;
+  background-color: #111;
 }
 footer p {
   font-size: 1.6rem;

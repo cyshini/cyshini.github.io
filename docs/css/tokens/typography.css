@@ -1,7 +1,7 @@
 /* Error: Undefined variable.
  *   ,
- * 8 |   color: $color-grey-lightest;
- *   |          ^^^^^^^^^^^^^^^^^^^^
+ * 8 |   color: $color-white;
+ *   |          ^^^^^^^^^^^^
  *   '
  *   sass\tokens\typography.scss 8:10  root stylesheet */
 
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 8 \2502    color: $color-grey-lightest;\a   \2502           ^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\tokens\\typography.scss 8:10  root stylesheet";
+  content: "Error: Undefined variable.\a   \2577 \a 8 \2502    color: $color-white;\a   \2502           ^^^^^^^^^^^^\a   \2575 \a   sass\\tokens\\typography.scss 8:10  root stylesheet";
 }

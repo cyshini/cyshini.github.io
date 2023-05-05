@@ -17,9 +17,9 @@ html {
 
 // Default body styles
 body {
-  background: $color-grey-darker;
+  background: $color-grey-darkest;
   color: $color-grey-lighter;
-  font-family: 'PublicSans-Regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'SpaceGrotesk-Regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em; // Currently ems cause chrome bug misinterpreting rems on body element
   font-weight: 400;
   line-height: 1.5;
