@@ -21,4 +21,10 @@
   text-align: center;
 }
 
+@media (max-width: 40rem) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=utility.css.map */

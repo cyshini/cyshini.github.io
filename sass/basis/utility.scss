@@ -30,3 +30,9 @@
 .center {
   text-align: center;
 }
+
+.hide-on-mobile {
+  @media (max-width: 40rem) {
+    display: none;
+  }
+}
