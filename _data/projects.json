@@ -3,42 +3,27 @@
         "thumbnail": "./img/card-perfectdraft.jpg",
         "pictogram": "./img/picto-perfectdraft.svg",
         "title": "PerfectDraft",
-        "jobs": "User Research, UX/UI design",
+        "summary": "Establish product design processes and tools for external and internal interfaces.",
+        "tag01": "UX/UI design",
+        "tag02": "Design System",
         "link": "project-perfectdraft.html"
     },
     {
         "thumbnail": "./img/card-leroymerlin.jpg",
         "pictogram": "./img/picto-leroymerlin.svg",
         "title": "Leroy Merlin",
-        "jobs": "User Research, UX/UI design",
+        "summary": "Make order tracking more readable for employees and customers.",
+        "tag01": "User Research",
+        "tag02": "UX/UI design",
         "link": "project-leroymerlin.html"
     },
     {
         "thumbnail": "./img/card-meert.jpg",
         "pictogram": "./img/picto-meert.svg",
         "title": "Méert",
-        "jobs": "UI design, Artistic Direction",
+        "summary": "Make buying pastries online as enjoyable and appetizing as the age-old brand.",
+        "tag01": "Art Direction",
+        "tag02": "UI design",
         "link": "project-meert.html"
-    },
-    {
-        "thumbnail": "./img/card-laredoute.jpg",
-        "pictogram": "./img/picto-laredoute.svg",
-        "title": "La Redoute",
-        "jobs": "UI design",
-        "link": "project-laredoute.html"
-    },
-    {
-        "thumbnail": "./img/card-maisonsdenflandre.jpg",
-        "pictogram": "./img/picto-maisonsdenflandre.svg",
-        "title": "Maisons d'en Flandre",
-        "jobs": "UI design",
-        "link": "project-maisonsdenflandre.html"
-    },
-    {
-        "thumbnail": "./img/card-vensto.jpg",
-        "pictogram": "./img/picto-vensto.svg",
-        "title": "Vensto",
-        "jobs": "Direction artistique et UI design",
-        "link": "project-vensto.html"
     }
 ]

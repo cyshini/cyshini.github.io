@@ -1,74 +1,37 @@
-.card,
-.card .project-thumbnail {
-  transition: all 0.25s ease-out;
-  text-align: center;
-  margin: 0;
-}
-
-.card-section {
-    flex: 1 0 auto;
-    padding: 1.6rem 2.4rem 2.4rem 2.4rem;
-}
-
-.card-icon {
-    display:none;
-}
-
-.card p {
-    color: $color-grey-light;
-    font-size: 1.6rem;
-    margin: 0;
-}
-
-.card-images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card .icon-arrow-right {
-    transition: all 0.15s ease-out;
-    opacity: 0.0;
-    margin-bottom: -10px;
-}
-
-.card .project-pictogram {
+.card {
     transition: all 0.25s ease-out;
-    position: absolute;
-    opacity: 1.0;
-    z-index: 1;
+    margin: 0;
+    border: 0.2rem solid $color-grey-dark;
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 4 / 3;
+}
+
+.card-content {
+    padding: 4.8rem;
+    .card-title {
+        display: flex;
+    }
+    
+    .card-title h3 {
+        margin-right: 0.8rem;
+    }
+    
+    .card p {
+        color: $color-grey-light;
+        font-size: 1.6rem;
+        margin: 0;
+    }
+}
+
+.taglist {
+    padding: 4.8rem;
 }
 
 a:hover {
     text-decoration: none;
-    .card {
-        background: $color-grey-darkest;
-        margin-top: -1rem;
-        margin-bottom: 2rem;
-        .project-pictogram {
-            opacity: 1.0;
-        }
-        .project-thumbnail {
-            opacity: 0.6;
-        }
-        .icon-arrow-right {
-            opacity: 1.0;
-            margin-bottom: 0;
-        }
-      }
-      
 }
 
-
 @media (min-width: 40rem) {
-    .card,
-    .card .project-thumbnail {
-        text-align: left;
-    }
-    .card-icon {
-        display:inline-block;
-    }
-    .card .project-pictogram {
-        opacity: 0.0;
-    }
+
 }

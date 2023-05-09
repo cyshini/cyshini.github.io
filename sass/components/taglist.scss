@@ -7,12 +7,14 @@
     li {
         list-style: none;
         flex-direction: column;
-        font-size: 1.6rem;
-        white-space: nowrap;
-        border: 2px solid $color-grey-dark;
-        border-radius: 2.0rem;
-        background-color: $color-grey-darkest;
-        padding: 0.4rem 1.6rem;
+        border: 1px solid $color-white;
+        padding: 0.4rem 1.2rem;
         margin: 0;
+        font-size: 1.4rem;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        white-space: nowrap;
+        background-color: $color-black;
+        color: $color-white;
     }
 }

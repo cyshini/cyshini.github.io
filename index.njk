@@ -14,15 +14,18 @@ layout: layouts/base.njk
         {% if (loop.index <= 2) %}
         <div class="column">
             <a href="{{ project.link }}">
-                <div class="card">
-                    <div class="card-images">
-                        <img src="{{ project.pictogram }}" class="project-pictogram" width="200px" alt="{{ project.title }} pictogram">
-                        <img src="{{ project.thumbnail }}" class="project-thumbnail" alt="{{ project.title }} thumbnail">
+                <div class="card" style="background-image: url('{{ project.thumbnail }}');">
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h3 class="title--s">{{ project.title }}</h3>
+                            <img src="{{ project.pictogram }}" class="project-pictogram" width="40px" height="40px" alt="{{ project.title }} pictogram">
+                        </div>
+                        <p>{{ project.summary }}</p>
                     </div>
-                    <div class="card-section">
-                        <h3 class="title--s">{{ project.title }} <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 -2 22 18" class="icon-arrow-right"><polygon points="20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 " fill="#f4f4f4"/></svg></span></h3>
-                        <p>{{ project.jobs }}</p>
-                    </div>
+                    <ul class="taglist">
+                        <li>{{ project.tag01 }}</li>
+                        <li>{{ project.tag02 }}</li>
+                    </ul>
                 </div>
             </a>
         </div>
@@ -36,15 +39,18 @@ layout: layouts/base.njk
         {% if (loop.index == 3) %}
         <div class="column">
             <a href="{{ project.link }}">
-                <div class="card">
-                    <div class="card-images">
-                        <img src="{{ project.pictogram }}" class="project-pictogram" width="200px" alt="{{ project.title }} pictogram">
-                        <img src="{{ project.thumbnail }}" class="project-thumbnail" alt="{{ project.title }} thumbnail">
+                <div class="card" style="background-image: url('{{ project.thumbnail }}');">
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h3 class="title--s">{{ project.title }}</h3>
+                            <img src="{{ project.pictogram }}" class="project-pictogram" width="40px" height="40px" alt="{{ project.title }} pictogram">
+                        </div>
+                        <p>{{ project.summary }}</p>
                     </div>
-                    <div class="card-section">
-                        <h3 class="title--s">{{ project.title }} <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 -2 22 18" class="icon-arrow-right"><polygon points="20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 " fill="#f4f4f4"/></svg></span></h3>
-                        <p>{{ project.jobs }}</p>
-                    </div>
+                    <ul class="taglist">
+                        <li>{{ project.tag01 }}</li>
+                        <li>{{ project.tag02 }}</li>
+                    </ul>
                 </div>
             </a>
         </div>
@@ -59,12 +65,3 @@ layout: layouts/base.njk
         </div>
     </div>
 </section>
-
-<ul class="taglist">
-    <li>UI Design</li>
-    <li>UX Design</li>
-    <li>Design Systems</li>
-    <li>User Research</li>
-    <li>Art Direction</li>
-    <li>Training</li>
-</ul>
