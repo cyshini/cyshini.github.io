@@ -1,7 +1,6 @@
 .card,
 .card .project-thumbnail {
   transition: all 0.25s ease-out;
-  border-radius: 2.4rem;
   text-align: center;
   margin: 0;
 }
@@ -51,8 +50,6 @@ a:hover {
         }
         .project-thumbnail {
             opacity: 0.6;
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
         }
         .icon-arrow-right {
             opacity: 1.0;

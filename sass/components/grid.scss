@@ -4,7 +4,7 @@
 // .container is main centered wrapper with a max width of 128.0rem (1280px)
 .container {
   margin: 0 auto;
-  max-width: 128rem;
+  max-width: 144rem;
   padding: 1.6rem 3.2rem;
   position: relative;
   width: 100%;
@@ -70,7 +70,7 @@
   // Safari desktop has a bug using `rem`, but Safari mobile works
 
   .container {
-    padding: 1.6rem 4.8rem;
+    padding: 1.6rem 6.4rem;
   }
 
   .row {
