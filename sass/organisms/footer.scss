@@ -3,8 +3,15 @@ footer {
     width: 100%;
     padding: 0 3.2rem 4.8rem 3.2rem;
     background-color: $color-grey-darkest;
-    p {
-        font-size: 1.6rem;
+    p.text--s {
         color: $color-grey-light;
+        a {
+            color: $color-grey-light;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: $color-white;
+            text-decoration: none;
+        }
     }
 }

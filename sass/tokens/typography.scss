@@ -9,11 +9,38 @@ strong {
 }
 
 p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+  margin-top: 0;
+  color: $color-grey-lightest;
+}
+
+.text--l,
+.text--m,
+.text--s {
+  font-family: 'SpaceGrotesk-Regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $color-grey-lightest;
+  margin-top: 0;
+}
+
+.text--l {
+  font-size: 2.0rem;
+  margin-bottom: 2.0rem;
+}
+
+.text--m {
   font-size: 1.8rem;
   margin-bottom: 1.8rem;
-  margin-top: 0;
-  color: $color-white;
 }
+
+.text--s {
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
 
 .title--l,
 .title--m,
@@ -25,27 +52,43 @@ p {
 }
 
 .title--l {
-  font-size: 3.2rem;
+  font-size: 4.8rem;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 2.0rem;
 }
 
 .title--m {
-  font-size: 2.4rem;
+  font-family: 'SpaceGrotesk-Medium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 3.2rem;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.3;
   margin-bottom: 1.6rem;
 }
 
 .title--s {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.3;
   margin-bottom: 0.8rem;
 }
 
 @media (min-width: 40rem) {
+  .text--l {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+  
+  .text--m {
+    font-size: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+  
+  .text--s {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+
   .title--l {
     font-size: 7.2rem;
     font-weight: 700;
@@ -54,6 +97,7 @@ p {
   }
   
   .title--m {
+    font-family: 'SpaceGrotesk-Medium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     font-size: 4.0rem;
     font-weight: 500;
     line-height: 1.3;

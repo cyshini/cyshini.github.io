@@ -23,7 +23,7 @@ header {
                 list-style: none;
                 flex-direction: column;
                 a {
-                    color: $color-white;
+                    color: $color-grey-lightest;
                     font-family: 'SpaceGrotesk-Bold', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
                     font-weight: 700;
                     position: relative;
@@ -34,7 +34,7 @@ header {
                     text-decoration: none;
                 }
                 a.active::after {
-                    content: "";
+                    content: '';
                     position: absolute;
                     top: 2.4rem;
                     left: 46%;
