@@ -762,7 +762,8 @@ input[type=radio] {
   align-items: baseline;
 }
 .row .column {
-  display: block;
+  display: flex;
+  flex-direction: column;
   flex: 1 1 auto;
   margin-left: 0;
   max-width: 100%;
@@ -770,7 +771,7 @@ input[type=radio] {
   padding: 0.8rem 0;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 60rem) {
   .container {
     padding: 1.6rem 6.4rem;
   }
@@ -778,7 +779,7 @@ input[type=radio] {
     flex-direction: row;
     margin-left: -2.4rem;
     width: calc(100% + 4.8rem);
-    padding: 0.8rem 0;
+    padding-bottom: 4.8rem;
   }
   .row .column {
     margin-bottom: inherit;
@@ -964,36 +965,87 @@ img.logo {
   color: #fff;
 }
 
+.card-link {
+  display: flex;
+  flex: 1;
+}
+
+a.card-link,
+a.card-link:hover,
+a.card-link:active,
+a.card-link:focus {
+  text-decoration: none;
+}
+
 .card {
   transition: all 0.25s ease-out;
-  margin: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   border: 0.2rem solid #666;
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
   aspect-ratio: 4/3;
 }
 
+a.card-link:hover .card-color--yellow {
+  border-color: #FFED50;
+}
+
+a.card-link:hover .card-color--green {
+  border-color: #C7FF50;
+}
+
+a.card-link:hover .card-color--red {
+  border-color: #FF5E5E;
+}
+
 .card-content {
-  padding: 4.8rem;
+  padding: 4rem 4.8rem 4.8rem 4.8rem;
+  flex: 1;
 }
-.card-content .card-title {
-  display: flex;
-}
-.card-content .card-title h3 {
-  margin-right: 0.8rem;
-}
-.card-content .card p {
-  color: #aaa;
-  font-size: 1.6rem;
+.card-content p {
+  color: #fff;
+  font-size: 2.4rem;
   margin: 0;
 }
 
-.taglist {
+.card-title {
+  display: flex;
+}
+.card-title h3 {
+  margin: 0 0.8rem 0.8rem 0;
+}
+.card-title img {
+  margin: 0 0 0.8rem 0;
+}
+
+.card-color--yellow h3 {
+  color: #FFED50;
+}
+
+.card-color--green h3 {
+  color: #C7FF50;
+}
+
+.card-color--red h3 {
+  color: #FF5E5E;
+}
+
+.card-mention {
   padding: 4.8rem;
 }
 
-a:hover {
-  text-decoration: none;
+.contact {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border: 0.2rem solid #fff;
+  background-color: #000;
+}
+.contact .card-mention {
+  padding-bottom: 3.2rem;
 }
 
 header {
@@ -1054,7 +1106,7 @@ header nav ul .myname a {
   letter-spacing: 0.2rem;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 60rem) {
   header nav {
     padding: 0 6.4rem;
   }
@@ -1081,7 +1133,7 @@ main.container {
   padding-top: 9.6rem;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 60rem) {
   main.container {
     padding-top: 20.2rem;
   }

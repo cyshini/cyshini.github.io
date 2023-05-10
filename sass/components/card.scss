@@ -1,37 +1,87 @@
+// Project Card
+
+.card-link {
+    display: flex;
+    flex: 1;
+}
+
+a.card-link,
+a.card-link:hover,
+a.card-link:active,
+a.card-link:focus {
+    text-decoration: none;
+}
+
 .card {
     transition: all 0.25s ease-out;
-    margin: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     border: 0.2rem solid $color-grey-dark;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.9), rgba(0,0,0,0));
     aspect-ratio: 4 / 3;
 }
 
+a.card-link:hover .card-color--yellow {
+    border-color: $color-primary;
+}
+
+a.card-link:hover .card-color--green {
+    border-color: $color-green;
+}
+
+a.card-link:hover .card-color--red {
+    border-color: $color-red;
+}
+
 .card-content {
-    padding: 4.8rem;
-    .card-title {
-        display: flex;
-    }
-    
-    .card-title h3 {
-        margin-right: 0.8rem;
-    }
-    
-    .card p {
-        color: $color-grey-light;
-        font-size: 1.6rem;
+    padding: 4rem 4.8rem 4.8rem 4.8rem;
+    flex: 1;
+    p {
+        color: $color-white;
+        font-size: 2.4rem;
         margin: 0;
     }
 }
 
-.taglist {
+.card-title {
+    display: flex;
+    h3 {
+        margin: 0 0.8rem 0.8rem 0;
+    }
+    img {
+        margin: 0 0 0.8rem 0;
+    }
+}
+
+.card-color--yellow h3 {
+    color: $color-primary;
+}
+
+.card-color--green h3 {
+    color: $color-green;
+}
+
+.card-color--red h3 {
+    color: $color-red;
+}
+
+.card-mention {
     padding: 4.8rem;
 }
 
-a:hover {
-    text-decoration: none;
-}
 
-@media (min-width: 40rem) {
+// Contact Card
 
+.contact {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 0.2rem solid $color-white;
+    background-color: $color-black;
+    .card-mention {
+        padding-bottom: 3.2rem;
+    }    
 }
