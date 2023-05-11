@@ -82,14 +82,28 @@ a.card-link:hover .card-mention {
     background-color: rgba(0,0,0,0.4);
 }
 
-
 @media (max-width: 60rem) {
     .project-pictogram {
         width: 32px;
         height: 32px;
     }
-}
 
+    .card-content {
+        padding: 2.4rem 3.2rem 1.6rem 3.2rem;
+    }
+
+    a.card-link:hover .card-content {
+        padding-top: 3.2rem;
+    }
+
+    .card-mention {
+        padding: 0 3.2rem 3.2rem 3.2rem;
+    }
+
+    a.card-link:hover .card-mention {
+        padding-bottom: 4.0rem;
+    }
+}
 
 // Contact Card
 
@@ -102,4 +116,10 @@ a.card-link:hover .card-mention {
     .card-mention {
         padding-bottom: 3.2rem;
     }    
+}
+
+@media (max-width: 60rem) {
+    .contact .card-mention {
+        padding-bottom: 0.8rem;
+    }
 }
