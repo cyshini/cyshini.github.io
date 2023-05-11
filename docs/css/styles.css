@@ -1154,12 +1154,21 @@ header nav ul li a:hover {
   color: #FFED50;
   text-decoration: none;
 }
-header nav ul .myname a {
+
+.myname {
+  width: 100%;
+}
+.myname a {
   font-family: "SpaceGrotesk-Regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   color: #eee;
   text-transform: uppercase;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+.myname img {
+  margin: 0 1.6rem 0 0;
 }
 
 @media (min-width: 60rem) {
@@ -1169,9 +1178,6 @@ header nav ul .myname a {
   header nav ul {
     padding: 4rem 0;
     gap: 3.2rem;
-  }
-  .myname {
-    width: 100%;
   }
 }
 footer {

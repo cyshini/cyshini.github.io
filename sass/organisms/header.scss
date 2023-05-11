@@ -49,17 +49,26 @@ header {
                 }
             }
 
-            .myname a {
-                font-family: 'SpaceGrotesk-Regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-                font-weight: 400;
-                color: $color-grey-lightest;
-                text-transform: uppercase;
-                letter-spacing: 0.2rem;
-            }
-
         }
     }
 
+}
+
+
+.myname {
+    width: 100%;
+    a {
+        font-family: 'SpaceGrotesk-Regular', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+        font-weight: 400;
+        color: $color-grey-lightest;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        display: flex;
+        align-items: center;
+    }
+    img {
+        margin: 0 1.6rem 0 0;
+    }
 }
 
 @media (min-width: 60rem) {
@@ -70,9 +79,5 @@ header {
             padding: 4.0rem 0;
             gap: 3.2rem;
         }
-    }
-
-    .myname {
-        width: 100%;
     }
 }
