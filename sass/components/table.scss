@@ -2,30 +2,66 @@
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 table {
+  box-shadow: 0 0 0 2px inset $color-grey-dark;
   border-spacing: 0;
   display: block;
   overflow-x: auto;
-  text-align: left;
+  text-align: center;
+  vertical-align: middle;
   width: 100%;
 }
 
-td,
-th {
-  border-bottom: 0.1rem solid $color-grey;
-  padding: 1.2rem 1.5rem;
-
-  &:first-child {
-    padding-left: 0;
-  }
-
-  &:last-child {
-    padding-right: 0;
-  }
+tr,
+tbody {
+  display: block;
+  width: 100%;
 }
 
-@media (min-width: 40rem) {
+td {
+  border: 1px solid $color-grey-dark;
+  padding: 3.2rem;
+  display: block;
+  width: 100%;
+
+  img.logo {
+    margin: 0.4rem 0 0 0;
+  }
+
+  h4 {
+    margin:0;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-family: 'SpaceGrotesk-Bold', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $color-white;
+    letter-spacing: 0.3rem;
+  }
+
+}
+
+td.table-head {
+  border: 2px solid $color-white;
+  background: $color-black;
+}
+
+@media (min-width: 60rem) {
   table {
     display: table;
     overflow-x: initial;
+  }
+
+  tr{
+    display: table-row;
+  }
+
+  tbody {
+    display: table-row-group;
+  }
+  
+  td {
+    display: table-cell;
+    vertical-align: middle;
+    width: auto;
   }
 }

@@ -4,5 +4,14 @@
 hr {
   border: 0;
   border-top: 0.2rem solid $color-grey-dark;
-  padding-bottom: 9.6rem;
+  padding-bottom: 3.2rem;
+  display: none;
+  margin:0;
+}
+
+@media (min-width: 60rem) {
+  hr {
+    padding-bottom: 9.6rem;
+    display: block;
+  }
 }
