@@ -1,10 +1,17 @@
-img {
-  max-width: 100%;
-  margin-bottom: 1.6rem;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 15 |   border: 2px solid $color-white;
+ *    |                     ^^^^^^^^^^^^
+ *    '
+ *   sass\components\image.scss 15:21  root stylesheet */
 
-img.logo {
-  margin: 1.6rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 15 \2502    border: 2px solid $color-white;\a    \2502                      ^^^^^^^^^^^^\a    \2575 \a   sass\\components\\image.scss 15:21  root stylesheet";
 }
-
-/*# sourceMappingURL=image.css.map */

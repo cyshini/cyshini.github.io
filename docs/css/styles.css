@@ -406,7 +406,7 @@ p {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.3;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.2rem;
 }
 
 @media (min-width: 40rem) {
@@ -439,7 +439,7 @@ p {
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 1.3;
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.2rem;
   }
 }
 .button,
@@ -674,8 +674,8 @@ pre > code {
 
 hr {
   border: 0;
-  border-top: 0.1rem solid #ccc;
-  margin: 3rem 0;
+  border-top: 0.2rem solid #666;
+  padding-bottom: 9.6rem;
 }
 
 input[type=color],
@@ -927,26 +927,22 @@ ul {
   margin-top: 0;
   padding-left: 0;
 }
-dl dl,
-dl ol,
-dl ul,
-ol dl,
-ol ol,
-ol ul,
-ul dl,
-ul ol,
-ul ul {
-  font-size: 90%;
-  margin: 1.5rem 0 1.5rem 3rem;
+dl dt,
+ol dt,
+ul dt {
+  margin: 0;
+  padding-left: 0;
+}
+dl dd,
+dl li,
+ol dd,
+ol li,
+ul dd,
+ul li {
+  margin: 0 0 3.2rem 0;
+  padding-left: 0;
 }
 
-/*ol {
-  list-style: decimal inside;
-}
-
-ul {
-  list-style: circle inside;
-}*/
 table {
   border-spacing: 0;
   display: block;
@@ -981,7 +977,12 @@ img {
 }
 
 img.logo {
+  max-width: none;
   margin: 1.6rem;
+}
+
+[src$=".jpg"] {
+  border: 2px solid #fff;
 }
 
 .taglist {
@@ -1059,7 +1060,7 @@ a.card-link:hover .card-content {
   display: flex;
 }
 .card-title h3 {
-  margin: 0 0.8rem 0.8rem 0;
+  margin-right: 0.8rem;
 }
 .card-title img {
   margin: 0 0 0.8rem 0;

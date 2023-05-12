@@ -5,25 +5,20 @@ ul {
   margin-top: 0;
   padding-left: 0;
 }
-dl dl,
-dl ol,
-dl ul,
-ol dl,
-ol ol,
-ol ul,
-ul dl,
-ul ol,
-ul ul {
-  font-size: 90%;
-  margin: 1.5rem 0 1.5rem 3rem;
+dl dt,
+ol dt,
+ul dt {
+  margin: 0;
+  padding-left: 0;
 }
-
-/*ol {
-  list-style: decimal inside;
+dl dd,
+dl li,
+ol dd,
+ol li,
+ul dd,
+ul li {
+  margin: 0 0 3.2rem 0;
+  padding-left: 0;
 }
-
-ul {
-  list-style: circle inside;
-}*/
 
 /*# sourceMappingURL=list.css.map */

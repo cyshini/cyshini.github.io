@@ -1,7 +1,7 @@
 /* Error: Undefined variable.
  *   ,
- * 6 |   border-top: 0.1rem solid $color-grey-lighter;
- *   |                            ^^^^^^^^^^^^^^^^^^^
+ * 6 |   border-top: 0.2rem solid $color-grey-dark;
+ *   |                            ^^^^^^^^^^^^^^^^
  *   '
  *   sass\components\divider.scss 6:28  root stylesheet */
 
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 6 \2502    border-top: 0.1rem solid $color-grey-lighter;\a   \2502                             ^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\components\\divider.scss 6:28  root stylesheet";
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502    border-top: 0.2rem solid $color-grey-dark;\a   \2502                             ^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\components\\divider.scss 6:28  root stylesheet";
 }
