@@ -7,7 +7,6 @@ table {
   display: block;
   overflow-x: auto;
   text-align: center;
-  vertical-align: middle;
   width: 100%;
 }
 
@@ -51,7 +50,7 @@ td.table-head {
     overflow-x: initial;
   }
 
-  tr{
+  tr {
     display: table-row;
   }
 
