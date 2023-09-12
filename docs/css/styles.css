@@ -503,16 +503,24 @@ body {
   float: right;
 }
 
+.flex-horizontal {
+  display: flex;
+}
+
 .no-spacing {
   padding: 0;
   margin: 0;
+}
+
+.spacing-right {
+  padding-right: 1.6rem;
 }
 
 .center {
   text-align: center;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 60rem) {
   .hide-on-mobile {
     display: none;
   }
@@ -533,8 +541,8 @@ button,
 input[type=button],
 input[type=reset],
 input[type=submit] {
-  background-color: #FFED50;
-  border: 0.1rem solid #FFED50;
+  background-color: #30F167;
+  border: 0.1rem solid #30F167;
   border-radius: 0.4rem;
   color: #333;
   cursor: pointer;
@@ -581,8 +589,8 @@ input[type=reset][disabled]:focus,
 input[type=reset][disabled]:hover,
 input[type=submit][disabled]:focus,
 input[type=submit][disabled]:hover {
-  background-color: #FFED50;
-  border-color: #FFED50;
+  background-color: #30F167;
+  border-color: #30F167;
 }
 .button.button-outline,
 button.button-outline,
@@ -590,7 +598,7 @@ input[type=button].button-outline,
 input[type=reset].button-outline,
 input[type=submit].button-outline {
   background-color: transparent;
-  color: #FFED50;
+  color: #30F167;
 }
 .button.button-outline:focus, .button.button-outline:hover,
 button.button-outline:focus,
@@ -615,7 +623,7 @@ input[type=reset].button-outline[disabled]:hover,
 input[type=submit].button-outline[disabled]:focus,
 input[type=submit].button-outline[disabled]:hover {
   border-color: inherit;
-  color: #FFED50;
+  color: #30F167;
 }
 .button.button-clear,
 button.button-clear,
@@ -624,7 +632,7 @@ input[type=reset].button-clear,
 input[type=submit].button-clear {
   background-color: transparent;
   border-color: transparent;
-  color: #FFED50;
+  color: #30F167;
 }
 .button.button-clear:focus, .button.button-clear:hover,
 button.button-clear:focus,
@@ -648,7 +656,7 @@ input[type=reset].button-clear[disabled]:focus,
 input[type=reset].button-clear[disabled]:hover,
 input[type=submit].button-clear[disabled]:focus,
 input[type=submit].button-clear[disabled]:hover {
-  color: #FFED50;
+  color: #30F167;
 }
 
 code {
@@ -662,7 +670,7 @@ code {
 
 pre {
   background: #ccc;
-  border-left: 0.3rem solid #FFED50;
+  border-left: 0.3rem solid #30F167;
   overflow-y: hidden;
 }
 pre > code {
@@ -728,7 +736,7 @@ input[type=week]:focus,
 input:not([type]):focus,
 textarea:focus,
 select:focus {
-  border-color: #FFED50;
+  border-color: #30F167;
   outline: 0;
 }
 
@@ -737,7 +745,7 @@ select {
   padding-right: 3rem;
 }
 select:focus {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23FFED50" d="M0,0l6,8l6-8"/></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%2330F167" d="M0,0l6,8l6-8"/></svg>');
 }
 select[multiple] {
   background: none;
@@ -921,11 +929,27 @@ input[type=radio] {
   }
 }
 a {
-  color: #FFED50;
+  color: #30F167;
   text-decoration: none;
 }
 a:focus, a:hover {
   text-decoration: underline;
+}
+
+a.project-color--yellow {
+  color: #FFED50;
+}
+
+a.project-color--green {
+  color: #C7FF50;
+}
+
+a.project-color--blue {
+  color: #6875FF;
+}
+
+a.project-color--red {
+  color: #FF5E5E;
 }
 
 dl,
@@ -1027,7 +1051,7 @@ img.logo {
 }
 
 .taglist {
-  padding: 3.2rem 0;
+  padding: 0 0 4.8rem 0;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -1071,15 +1095,19 @@ a.card-link:focus {
   aspect-ratio: 4/3;
 }
 
-a.card-link:hover .card-color--yellow {
+a.card-link:hover .project-color--yellow {
   border-color: #FFED50;
 }
 
-a.card-link:hover .card-color--green {
+a.card-link:hover .project-color--green {
   border-color: #C7FF50;
 }
 
-a.card-link:hover .card-color--red {
+a.card-link:hover .project-color--blue {
+  border-color: #6875FF;
+}
+
+a.card-link:hover .project-color--red {
   border-color: #FF5E5E;
 }
 
@@ -1107,15 +1135,19 @@ a.card-link:hover .card-content {
   margin: 0 0 0.8rem 0;
 }
 
-.card-color--yellow h3 {
+.project-color--yellow h3 {
   color: #FFED50;
 }
 
-.card-color--green h3 {
+.project-color--green h3 {
   color: #C7FF50;
 }
 
-.card-color--red h3 {
+.project-color--blue h3 {
+  color: #6875FF;
+}
+
+.project-color--red h3 {
   color: #FF5E5E;
 }
 
@@ -1196,7 +1228,7 @@ header nav ul li a {
   text-decoration: none;
 }
 header nav ul li a.active {
-  color: #FFED50;
+  color: #30F167;
   text-decoration: none;
 }
 header nav ul li a.active::after {
@@ -1207,10 +1239,10 @@ header nav ul li a.active::after {
   width: 0.6rem;
   height: 0.6rem;
   border-radius: 0.6rem;
-  background-color: #FFED50;
+  background-color: #30F167;
 }
 header nav ul li a:hover {
-  color: #FFED50;
+  color: #30F167;
   text-decoration: none;
 }
 

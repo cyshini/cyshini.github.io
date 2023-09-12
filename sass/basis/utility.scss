@@ -19,10 +19,20 @@
   float: right;
 }
 
+// Flexbox
+.flex-horizontal {
+  display: flex;
+}
+
 // Remove all paddings and margin
 .no-spacing {
   padding: 0;
   margin: 0;
+}
+
+// Add some spacing
+.spacing-right {
+  padding-right: 1.6rem;
 }
 
 
@@ -32,7 +42,7 @@
 }
 
 .hide-on-mobile {
-  @media (max-width: 40rem) {
+  @media (max-width: 60rem) {
     display: none;
   }
 }

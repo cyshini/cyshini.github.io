@@ -24,15 +24,20 @@ a.card-link:focus {
     aspect-ratio: 4 / 3;
 }
 
-a.card-link:hover .card-color--yellow {
-    border-color: $color-primary;
+a.card-link:hover .project-color--yellow {
+    border-color: $color-yellow;
 }
 
-a.card-link:hover .card-color--green {
+a.card-link:hover .project-color--green {
     border-color: $color-green;
 }
 
-a.card-link:hover .card-color--red {
+a.card-link:hover .project-color--blue {
+    border-color: $color-blue;
+}
+
+
+a.card-link:hover .project-color--red {
     border-color: $color-red;
 }
 
@@ -60,15 +65,19 @@ a.card-link:hover .card-content {
     }
 }
 
-.card-color--yellow h3 {
-    color: $color-primary;
+.project-color--yellow h3 {
+    color: $color-yellow;
 }
 
-.card-color--green h3 {
+.project-color--green h3 {
     color: $color-green;
 }
 
-.card-color--red h3 {
+.project-color--blue h3 {
+    color: $color-blue;
+}
+
+.project-color--red h3 {
     color: $color-red;
 }
 
