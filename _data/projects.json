@@ -5,7 +5,7 @@
         "color": "project-color--yellow",
         "title": "PerfectDraft",
         "summary": "Establish product design processes and tools for external and internal interfaces.",
-        "tag01": "UX/UI design",
+        "tag01": "UX/UI Design",
         "tag02": "Design System",
         "link": "project-perfectdraft.html"
     },
@@ -16,7 +16,7 @@
         "title": "Beverage Platform",
         "summary": "Redesign a platform used for logistics, products and customers teams.",
         "tag01": "User Research",
-        "tag02": "UX/UI design",
+        "tag02": "UX/UI Design",
         "link": "project-beverageplatform.html"
     },
     {
@@ -26,7 +26,7 @@
         "title": "Méert",
         "summary": "Make buying pastries online as enjoyable and appetizing as the age-old brand.",
         "tag01": "Art Direction",
-        "tag02": "UI design",
+        "tag02": "UI Design",
         "link": "project-meert.html"
     },
     {
@@ -36,7 +36,7 @@
         "title": "Leroy Merlin",
         "summary": "Make order tracking more readable for employees and customers.",
         "tag01": "User Research",
-        "tag02": "UX/UI design",
+        "tag02": "UX/UI Design",
         "link": "project-leroymerlin.html"
     }
 ]
