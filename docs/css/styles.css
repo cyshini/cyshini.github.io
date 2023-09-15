@@ -1070,6 +1070,15 @@ img.logo {
   margin: 1.6rem;
 }
 
+img.icon {
+  margin-right: 1.2rem;
+}
+
+@media (max-width: 60rem) {
+  img.portrait {
+    max-width: 410px;
+  }
+}
 [src$=".jpg"] {
   border: 2px solid #fff;
 }
