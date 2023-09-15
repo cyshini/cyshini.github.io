@@ -69,6 +69,12 @@ p {
   color: $color-blue;
 }
 
+.title--l.project-color--yellow,
+.title--m.project-color--yellow,
+.title--s.project-color--yellow {
+  color: $color-yellow;
+}
+
 
 .title--l {
   font-size: 4.8rem;
