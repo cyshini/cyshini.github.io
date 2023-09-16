@@ -414,8 +414,8 @@ p {
 .title--l {
   font-size: 4.8rem;
   font-weight: 700;
-  line-height: 1.3;
-  margin-bottom: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
 }
 
 .title--m {
@@ -430,7 +430,7 @@ p {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.3;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.6rem;
 }
 
 @media (min-width: 40rem) {
@@ -449,7 +449,7 @@ p {
   .title--l {
     font-size: 7.2rem;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.2;
     margin-bottom: 4rem;
   }
   .title--m {
@@ -457,13 +457,13 @@ p {
     font-size: 4rem;
     font-weight: 500;
     line-height: 1.3;
-    margin-bottom: 3.2rem;
+    margin-bottom: 4rem;
   }
   .title--s {
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 1.3;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.6rem;
   }
 }
 .button,
@@ -998,12 +998,12 @@ ul li {
   margin: 0 0 4rem 0;
   padding-left: 0;
 }
-dl dd.text--m:last-child,
-ol dd.text--m:last-child,
-ul dd.text--m:last-child {
-  margin: 0;
-}
 
+@media (min-width: 60rem) {
+  dd.text--m:last-child {
+    margin: 0;
+  }
+}
 table {
   box-shadow: 0 0 0 2px inset #666;
   border-spacing: 0;
@@ -1128,22 +1128,6 @@ a.card-link:focus {
   aspect-ratio: 4/3;
 }
 
-a.card-link:hover .project-color--yellow {
-  border-color: #FFED50;
-}
-
-a.card-link:hover .project-color--green {
-  border-color: #C7FF50;
-}
-
-a.card-link:hover .project-color--blue {
-  border-color: #6875FF;
-}
-
-a.card-link:hover .project-color--red {
-  border-color: #FF5E5E;
-}
-
 .card-content {
   transition: all 0.15s ease-out;
   padding: 4rem 4.8rem 4.8rem 4.8rem;
@@ -1151,11 +1135,6 @@ a.card-link:hover .project-color--red {
 }
 .card-content p {
   margin: 0;
-}
-
-a.card-link:hover .card-content {
-  padding-top: 4.8rem;
-  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .card-title {
@@ -1189,11 +1168,28 @@ a.card-link:hover .card-content {
   padding: 0 4.8rem 4.8rem 4.8rem;
 }
 
-a.card-link:hover .card-mention {
-  padding-bottom: 5.6rem;
-  background-color: rgba(0, 0, 0, 0.4);
+@media (min-width: 60rem) {
+  a.card-link:hover .project-color--yellow {
+    border-color: #FFED50;
+  }
+  a.card-link:hover .project-color--green {
+    border-color: #C7FF50;
+  }
+  a.card-link:hover .project-color--blue {
+    border-color: #6875FF;
+  }
+  a.card-link:hover .project-color--red {
+    border-color: #FF5E5E;
+  }
+  a.card-link:hover .card-mention {
+    padding-bottom: 5.6rem;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  a.card-link:hover .card-content {
+    padding-top: 4.8rem;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 }
-
 @media (max-width: 60rem) {
   .project-pictogram {
     width: 32px;
@@ -1201,15 +1197,11 @@ a.card-link:hover .card-mention {
   }
   .card-content {
     padding: 2.4rem 3.2rem 1.6rem 3.2rem;
-  }
-  a.card-link:hover .card-content {
-    padding-top: 3.2rem;
+    background-color: rgba(0, 0, 0, 0.4);
   }
   .card-mention {
     padding: 0 3.2rem 3.2rem 3.2rem;
-  }
-  a.card-link:hover .card-mention {
-    padding-bottom: 4rem;
+    background-color: rgba(0, 0, 0, 0.4);
   }
 }
 .contact {
@@ -1328,7 +1320,7 @@ main.container {
 
 section,
 section.row {
-  padding-bottom: 3.2rem;
+  padding-bottom: 0rem;
 }
 
 @media (min-width: 60rem) {

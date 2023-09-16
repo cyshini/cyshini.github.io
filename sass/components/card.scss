@@ -24,23 +24,6 @@ a.card-link:focus {
     aspect-ratio: 4 / 3;
 }
 
-a.card-link:hover .project-color--yellow {
-    border-color: $color-yellow;
-}
-
-a.card-link:hover .project-color--green {
-    border-color: $color-green;
-}
-
-a.card-link:hover .project-color--blue {
-    border-color: $color-blue;
-}
-
-
-a.card-link:hover .project-color--red {
-    border-color: $color-red;
-}
-
 .card-content {
     transition: all 0.15s ease-out;
     padding: 4rem 4.8rem 4.8rem 4.8rem;
@@ -49,12 +32,6 @@ a.card-link:hover .project-color--red {
         margin: 0;
     }
 }
-
-a.card-link:hover .card-content {
-    padding-top: 4.8rem;
-    background-color: rgba(0,0,0,0.4);
-}
-
 .card-title {
     display: flex;
     h3 {
@@ -86,9 +63,35 @@ a.card-link:hover .card-content {
     padding: 0 4.8rem 4.8rem 4.8rem;
 }
 
-a.card-link:hover .card-mention {
-    padding-bottom: 5.6rem;
-    background-color: rgba(0,0,0,0.4);
+@media (min-width: 60rem) {
+
+    a.card-link:hover .project-color--yellow {
+        border-color: $color-yellow;
+    }
+
+    a.card-link:hover .project-color--green {
+        border-color: $color-green;
+    }
+
+    a.card-link:hover .project-color--blue {
+        border-color: $color-blue;
+    }
+
+
+    a.card-link:hover .project-color--red {
+        border-color: $color-red;
+    }
+
+    a.card-link:hover .card-mention {
+        padding-bottom: 5.6rem;
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    a.card-link:hover .card-content {
+        padding-top: 4.8rem;
+        background-color: rgba(0,0,0,0.4);
+    }
+
 }
 
 @media (max-width: 60rem) {
@@ -99,19 +102,14 @@ a.card-link:hover .card-mention {
 
     .card-content {
         padding: 2.4rem 3.2rem 1.6rem 3.2rem;
-    }
-
-    a.card-link:hover .card-content {
-        padding-top: 3.2rem;
+        background-color: rgba(0,0,0,0.4);
     }
 
     .card-mention {
         padding: 0 3.2rem 3.2rem 3.2rem;
+        background-color: rgba(0,0,0,0.4);
     }
 
-    a.card-link:hover .card-mention {
-        padding-bottom: 4.0rem;
-    }
 }
 
 // Contact Card

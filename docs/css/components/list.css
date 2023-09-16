@@ -20,10 +20,11 @@ ul li {
   margin: 0 0 4rem 0;
   padding-left: 0;
 }
-dl dd.text--m:last-child,
-ol dd.text--m:last-child,
-ul dd.text--m:last-child {
-  margin: 0;
+
+@media (min-width: 60rem) {
+  dd.text--m:last-child {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=list.css.map */

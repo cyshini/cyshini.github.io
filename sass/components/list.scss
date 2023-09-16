@@ -19,6 +19,9 @@ ul {
     padding-left: 0;
   }
 
+}
+
+@media (min-width: 60rem) {
   dd.text--m:last-child {
     margin:0;
   }
