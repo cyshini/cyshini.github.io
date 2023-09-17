@@ -1146,19 +1146,19 @@ a.card-link:focus {
   margin: 0 0 0.8rem 0;
 }
 
-.project-color--yellow h2 {
+.project-color--yellow h3 {
   color: #FFED50;
 }
 
-.project-color--green h2 {
+.project-color--green h3 {
   color: #C7FF50;
 }
 
-.project-color--blue h2 {
+.project-color--blue h3 {
   color: #6875FF;
 }
 
-.project-color--red h2 {
+.project-color--red h3 {
   color: #FF5E5E;
 }
 
