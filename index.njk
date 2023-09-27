@@ -4,8 +4,9 @@ layout: layouts/base.njk
 ---
 
 <section>
-    <h1 class="title--l">Hello world! I'm François Vilaire, a <a href="about.html">Product Designer</a> living in Lille.</h1>
-    <h2 class="title--m">Since 2007, I have been doing UI and UX design for multiple forms of digital projects, in order to make people's lives easier by combining usefulness with eye candy.</h2>
+    <h1 class="title--l">Hello world! I'm François Vilaire, a <a href="about.html">Product Designer</a> based in Lille.</h1>
+    <p class="title--m"> Since 2007, I've been on an exciting journey in the world of UI and UX design, crafting digital experiences that not only make life easier but also dazzle the eye.</p>
+    <p class="title--m">Let's create user-friendly magic together!</p>
 </section>
 
 <section>
@@ -17,7 +18,7 @@ layout: layouts/base.njk
                 <div class="card {{ project.color }}" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.9), rgba(0,0,0,0)), url('{{ project.thumbnail }}');">
                     <div class="card-content">
                         <div class="card-title">
-                            <h3 class="title--s">{{ project.title }}</h3>
+                            <h2 class="title--s">{{ project.title }}</h2>
                             <img src="{{ project.pictogram }}" class="project-pictogram hide-on-mobile" width="40px" height="40px" alt="{{ project.title }} pictogram">
                         </div>
                         <p class="text--l">{{ project.summary }}</p>
@@ -42,7 +43,7 @@ layout: layouts/base.njk
                 <div class="card {{ project.color }}" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.9), rgba(0,0,0,0)), url('{{ project.thumbnail }}');">
                     <div class="card-content">
                         <div class="card-title">
-                            <h3 class="title--s">{{ project.title }}</h3>
+                            <h2 class="title--s">{{ project.title }}</h2>
                             <img src="{{ project.pictogram }}" class="project-pictogram hide-on-mobile" width="40px" height="40px" alt="{{ project.title }} pictogram">
                         </div>
                         <p class="text--l">{{ project.summary }}</p>
@@ -59,11 +60,11 @@ layout: layouts/base.njk
         <div class="column">
             <div class="contact">
                 <div class="card-content">
-                    <h4 class="title--s">Want to talk or to see some more projects?</h4>
-                    <p class="text--l">I can be reached by <a href="mailto:hello@francoisvilaire.com">email</a> and I am super corporate with my very own <a href="https://www.linkedin.com/in/fran%C3%A7ois-vilaire-9a9bb117/" aria-label="Opens in a new tab" target="_blank">Linkedin</a> profile.</p>
+                    <h3 class="title--s">Ready to chat or explore more of my projects?</h3>
+                    <p class="text--l">You can drop me an <a href="mailto:hello@francoisvilaire.com">email</a>, and I'm super professional with my very own <a href="https://www.linkedin.com/in/fran%C3%A7ois-vilaire-9a9bb117/" aria-label="Opens in a new tab" target="_blank">Linkedin</a> profile.</p>
                 </div>
                 <div class="card-mention">
-                    <p class="text--s">You can even find me on <a href="https://mastodon.design/@fvilaire" aria-label="Opens in a new tab" target="_blank">Mastodon</a>, because fediverse is love and Elon is not.</p>
+                    <p class="text--s">You might also stumble upon me on <a href="https://mastodon.design/@fvilaire" aria-label="Opens in a new tab" target="_blank">Mastodon</a>, because fediverse is love and Elon is not.</p>
                 </div>
             </div>
         </div>
