@@ -1139,7 +1139,7 @@ a.card-link:focus {
 .card-title {
   display: flex;
 }
-.card-title h3 {
+.card-title h2 {
   margin-right: 0.8rem;
 }
 .card-title img {
